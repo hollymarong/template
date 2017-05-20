@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+
+    <script type="text/template" id="templateScript">
+      <ul>
+      <% for(var item in loves){ %>
+        <li><%= loves[item].name %></li>
+      <% } %>
+      </ul>
+     <% if(name == 'marong') { %>
+     <p><%=age%></p>
+     <%}%>
+    </script>
+    </div>
+    <script type="text/javascript" src="/system/bowlder/src/bowlder.js"></script>
+    <script src="test.js">
+    </script>
+  </body>
+</html>
